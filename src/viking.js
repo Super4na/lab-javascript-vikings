@@ -111,7 +111,30 @@ class War {
 }
 
 
-
+// Bonus 5
+/* fight(attacker,victim) { 
+  let random 1 = Math.floor(Math.random()*this.attacker.length);
+  let random 2 = Math.floor(Math.random()*this.victim.length)
+  let at = (this.attacker[random1])
+  let vic = (this.victim[random2])
+  let result = vic.receiveDamage(at.attack());
+  
+  if (vic.health<=0) { 
+  this.vic.splice(random1,1)
+  }
+  return result
+  }
+  
+  
+  saxonAttack() {
+  super.fight(saxonArmy,vikingArmy)
+  }
+  
+  VikingAttack() {
+  super.fight(vikingArmy, saxonArmy)
+  }
+  
+ */
 
 
 // The following is required to make unit tests work.
